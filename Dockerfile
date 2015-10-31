@@ -23,7 +23,7 @@ RUN npm install gulp
 RUN npm install grunt
 RUN npm install -g gulp
 
-RUN node app.js
+CMD ["node","app.js"]
 
 
 EXPOSE 3033
