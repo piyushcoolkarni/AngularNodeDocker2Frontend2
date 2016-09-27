@@ -20,6 +20,5 @@ RUN npm install -g gulp
 
 CMD ["node","app.js"]
 
-
 EXPOSE 3033
 
